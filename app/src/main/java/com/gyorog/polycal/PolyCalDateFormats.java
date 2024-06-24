@@ -5,25 +5,29 @@ abstract class PolyCalDateFormats {
             "Jun 18 | 12:34 pm",
             "6-18|12:34pm",
             "June 18, 2020 @ 12:34 pm",
-            "2020-06-18 23:45"
+            "2020-06-18 23:45",
+            "18 Jun | 23:45",
     };
     static CharSequence[] formats_parseable = {
             " MMM d | h:mm a ",
             " M-d|h:mma ",
             " MMMM d, yyyy @ h:mm a ",
-            " yyyy-MM-dd kk:mm "
+            " yyyy-MM-dd kk:mm ",
+            " dd MMM | kk:mm ",
     };
     static CharSequence[] formats_readable_allday = {
             "Jun 18",
             "06-18",
             "June 18, 2020",
-            "2020-06-18 23:45"
+            "2020-06-18 23:45",
+            "18 Jun"
     };
     static CharSequence[] formats_parseable_allday = {
             " MMM d ",
             " M-d ",
             " MMMM d, yyyy ",
-            " yyyy-MM-dd "
+            " yyyy-MM-dd ",
+            " dd MMM "
     };
 
     public static CharSequence[] getFormatsReadable() { return formats_readable; }

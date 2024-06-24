@@ -20,7 +20,7 @@
         <SeekBarPreference
             android:title="Text size (SP)"
             android:summary="Choose a font size using the Android 'Scaled Pixel' units."
-            android:defaultValue="14"
+            android:defaultValue="17"
             android:max="40"
             android:key="text_size" />
         <ListPreference
